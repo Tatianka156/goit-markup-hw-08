@@ -1,0 +1,50 @@
+$main-background-color: #ffffff;
+$main-color-text: #212121;
+$second-color-text: #757575;
+$main-font-family: Roboto;
+$main-font-size: 26px;
+$main-color-text-darkbackground: #ffffff;
+$card-set-gap: 30px;
+
+body {
+    font-family: $main-font-family;
+    font-style: normal;
+    font-weight: normal;
+    color: $second-color-text;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+%flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+%container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+%li-null {
+    text-decoration: none;
+    list-style-type: none;
+}
